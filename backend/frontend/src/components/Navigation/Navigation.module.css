@@ -1,0 +1,33 @@
+.nav {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.border__top {
+  border-top: 2px solid black;
+  margin: 0 5%;
+}
+
+.lineOfButtons {
+  display: flex;
+  justify-content: space-around;
+
+  margin: 1vh 0;
+  padding-inline-start: 0px;
+}
+
+.buttonContainer {
+  width: 25%;
+  border-right: 2px solid #000;
+}
+
+.buttonContainer:last-child {
+  border-right: none;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+}

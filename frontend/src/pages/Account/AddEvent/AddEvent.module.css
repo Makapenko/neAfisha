@@ -1,0 +1,52 @@
+.inputs {
+  border-radius: 8px;
+  width: 200px;
+  padding: 10px;
+  color: red;
+  font-size: 16px;
+}
+
+.listsWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.listsWrapper>* {
+  width: 50%;
+}
+
+.allwrapper {
+  background-size: 100%;
+  text-align: center;
+}
+
+.allwrapper button {
+  padding: 1vh 3vw;
+  margin: 1vh 1vw;
+  border: 1px solid rgb(144, 158, 247)
+}
+
+.allwrapper button:hover {
+  background-color: rgb(201, 216, 247);
+}
+
+.allwrapper h2 {
+  padding-top: 2vh;
+}
+
+.wrapper {
+  padding: 0 20vw 0 20vw;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+.wrapp {
+  padding: 3vh 3vw;
+  margin: 1vh 1vw;
+  border: 1px solid rgb(225, 224, 224);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

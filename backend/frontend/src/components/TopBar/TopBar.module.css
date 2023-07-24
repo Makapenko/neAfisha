@@ -1,0 +1,60 @@
+.topBar {
+  display: flex;
+  justify-content: space-between;
+  height: 8vh;
+  align-items: center;
+  padding: 1vw 5vw;
+}
+
+.checkboxes {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.checkboxContainer {
+  display: flex;
+  align-items: center;
+}
+
+.iconContainer {
+  width: 3.5vh;
+  height: 3.5vh;
+}
+
+.checkboxName {
+  color: #958CF7;
+  font-size: 2vh;
+  margin-left: 1vw;
+}
+
+.separator {
+  width: 1px;
+  height: 9vw;
+  margin: 0 3vw;
+  background-color: #958CF7;
+}
+
+.dateAndCalendar {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.date {
+  color: #958CF7;
+  font-size: 1.5vh;
+}
+
+.calendarIconContainer {
+  width: 4vh;
+  height: 4vh;
+  margin-left: 1vw;
+}
+
+.calendar {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 10;
+}

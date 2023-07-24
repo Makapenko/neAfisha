@@ -1,0 +1,33 @@
+.subcat {
+  display: flex;
+  align-items: center;
+  padding: 2vw 0;
+  position: relative;
+}
+
+.subcat::after {
+  content: '';
+  width: 95%;
+  height: 1px;
+  background-color: #2B2C2E;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+}
+
+.subcat:last-child::after {
+  content: none;
+}
+
+.iconContainer {
+  width: 4vw;
+  height: 4vw;
+  margin-left: 4vw;
+  margin-right: 9vw;
+}
+
+.subcat__name {
+  font-weight: 400;
+  font-size: 2.5vh;
+}
